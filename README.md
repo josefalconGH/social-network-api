@@ -2,29 +2,28 @@
 
 ## Description
 
+This is a social network API that uses a NoSQL database. The API uses Express.js for routing, a MongoDB database, and the Mongoose ODM. The API allows users to create, update, and delete users, thoughts, and reactions. Users can also add/remove friends.
+
 ### License
 
 MIT License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Demo
-
 ## Features
 
--
--
--
--
-
-## Mock-Up
+- Create, read, update, and delete users
+- Create, read, update, and delete thoughts
+- Create and delete reactions to thoughts
+- Add and remove friends
 
 ## Learning Outcomes
 
--
--
--
--
+- Use Mongoose ODM to create models and interact with a MongoDB database
+- Use Express.js for routing
+- Use MongoDB for the database
+- Use Mongoose to create models
+- Use Insomnia Core to test the API routes
 
 ## Usage
 
@@ -39,3 +38,11 @@ MIT License
    ```bash
    npm install
    ```
+
+3. Start the server:
+
+   ```bash
+    npm start
+   ```
+
+4. Use Insomnia Core to test the API routes
